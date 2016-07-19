@@ -13,13 +13,13 @@ thinline = LineStyle(1, black)
 # A graphics asset that represents a rectangle
 rectangle = RectangleAsset(400, 200, thinline, green)
 ellipse = EllipseAsset(30, 30, thinline, yellow)
-ellipse2 = EllipseAsset(27, 27, thinline, blue)
+ellipse2 = EllipseAsset(70, 40, thinline, blue)
 polygon = PolygonAsset([(-85, 100), (25, -75), (100, 125), (-85, 100)], thinline, black)
-polygon2 = PolygonAsset([(-85, 100), (225, -125), (300, 125), (-85, 100)], thinline, black)
+polygon2 = PolygonAsset([(100, 100), (225, -125), (350, 125), (100, 100)], thinline, black)
 # Now display a rectangle
 Sprite(rectangle, (100, 200))
-Sprite(ellipse, (75, 30))
-Sprite(ellipse2, (400, 400))
+Sprite(ellipse, (75, 40))
+Sprite(ellipse2, (325, 325))
 Sprite(polygon, (150, 150))
 Sprite(polygon2, (150, 150))
 
