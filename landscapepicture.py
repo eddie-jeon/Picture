@@ -19,7 +19,7 @@ polygon = PolygonAsset([(-85, 100), (25, -75), (100, 125), (-85, 100)], thinline
 # Now display a rectangle
 Sprite(rectangle, (100, 200))
 Sprite(ellipse, (75, 30))
-Sprite(ellipse2, (300, 300))
+Sprite(ellipse2, (400, 400))
 Sprite(polygon, (150, 150))
 
 myapp = App()
