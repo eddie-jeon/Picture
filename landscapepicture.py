@@ -14,7 +14,7 @@ thinline = LineStyle(1, black)
 rectangle = RectangleAsset(400, 200, thinline, green)
 ellipse = EllipseAsset(30, 30, thinline, yellow)
 ellipse2 = EllipseAsset(27, 27, thinline, blue)
-polygon = PolygonAsset([(0, 100), (300, 100), (100, 275), (0, 100)], thinline, black)
+polygon = PolygonAsset([(-85, 100), (300, 100), (100, 275), (-85, 100)], thinline, black)
 
 # Now display a rectangle
 Sprite(rectangle, (100, 200))
