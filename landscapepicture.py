@@ -2,7 +2,7 @@ from ggame import App, Color, LineStyle, Sprite
 from ggame import RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # Three primary colors with no transparency (alpha = 1.0)
-white = Color(0xFFFFFF, 1.0)
+white = Color(0xE3E3E3, 1.0)
 yellow = Color(0xEDF55F, 1.0)
 blue = Color(0x0000FF, 1.0)
 green = Color(0x84F564, 1.0)
